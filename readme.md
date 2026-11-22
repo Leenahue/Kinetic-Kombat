@@ -51,6 +51,11 @@ kinetic-kombat/
    ```bash
    pip install -r requirements.txt
    ```
+   ### Custom Background Image (Optional)
+For licensing reasons, `assets/bg.jpg` is not included in this repository. 
+- To add your own arena background, place any `1280x720` image at `assets/bg.jpg` (it will automatically scale to fit the window).
+- If omitted, the game will automatically launch with a default solid gray backdrop.
+- 
 4. **Run the game:**
    ```bash
    python game.py
@@ -75,3 +80,7 @@ kinetic-kombat/
 - **OpenCV** (`cv2`) (webcam capture, mirroring, resizing, color conversion)
 - **MediaPipe** (33-landmark pose estimation)
 - **NumPy & Math** (frame array conversion and angle calculations)
+
+- ## Credits
+- **Fighter 1 Sprites  :** [Asset Bakery / (https://assetbakery.itch.io/2d-fighter-5)] 
+- **Fighter 2 Sprites  :** [Asset Bakery/ (https://assetbakery.itch.io/2d-fighter-3)] 
